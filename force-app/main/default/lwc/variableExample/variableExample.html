@@ -1,0 +1,60 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 11-10-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template >
+
+
+  <h1 class="abcd"> my name is lokesh ram</h1>
+  <div>
+
+    <lightning-card title={Title}>
+
+      <lightning-button label="Show" variant="brand" onclick={ShowDemo}></lightning-button>
+
+    </lightning-card>
+
+  </div>
+
+  <lightning-card title="Track Example">
+
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+      <p class="slds-m-bottom_medium">
+        A text input field.
+      </p>
+
+      <!-- Default/basic -->
+      <div class="slds-p-around_medium lgc-bg">
+        <lightning-input label="firstname" name="FirstName" onchange={Getdata}></lightning-input>
+      </div>
+    </div>
+
+
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+      <p class="slds-m-bottom_medium">
+        A text input field.
+      </p>
+
+      <!-- Default/basic -->
+      <div class="slds-p-around_medium lgc-bg">
+        <lightning-input label="firstname" name="LastName" onchange={Getdata}></lightning-input>
+      </div>
+    </div>
+
+
+
+    <p class="slds-m-bottom_medium">
+      FirstName :{Fieldvalue.firtname}
+      Lastname :{Fieldvalue.Lastname}
+    </p>
+
+
+
+
+  </lightning-card>
+
+</template>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>IN</fullName>
+        <default>false</default>
+        <label>IN</label>
+    </customValue>
+    <customValue>
+        <fullName>PH</fullName>
+        <default>false</default>
+        <label>PH</label>
+    </customValue>
+    <customValue>
+        <fullName>PG</fullName>
+        <default>false</default>
+        <label>PG</label>
+    </customValue>
+    <customValue>
+        <fullName>TW</fullName>
+        <default>false</default>
+        <label>TW</label>
+    </customValue>
+    <customValue>
+        <fullName>AU</fullName>
+        <default>false</default>
+        <label>AU</label>
+    </customValue>
+    <customValue>
+        <fullName>SG</fullName>
+        <default>false</default>
+        <label>SG</label>
+    </customValue>
+    <masterLabel>Jurdication</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

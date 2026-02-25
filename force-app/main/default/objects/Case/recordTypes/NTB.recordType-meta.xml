@@ -7,15 +7,11 @@
     <picklistValues>
         <picklist>Jurdication__c</picklist>
         <values>
-            <fullName>AU</fullName>
+            <fullName>IN</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>PH</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>TW</fullName>
             <default>false</default>
         </values>
     </picklistValues>

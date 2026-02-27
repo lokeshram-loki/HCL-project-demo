@@ -8,6 +8,9 @@
     <columns>CASES.PRIORITY</columns>
     <columns>CASES.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CLOSED</columns>
+    <columns>Jurdication__c</columns>
     <filterScope>Mine</filterScope>
     <filters>
         <field>CASES.CREATED_DATE</field>
@@ -17,7 +20,7 @@
     <filters>
         <field>CASES.STATUS</field>
         <operation>equals</operation>
-        <value>Closed</value>
+        <value>Closed,Working</value>
     </filters>
     <label>case closed</label>
 </ListView>
